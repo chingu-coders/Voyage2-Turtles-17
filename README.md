@@ -7,7 +7,20 @@
 
 ## Installing / Getting started
 
-Go to [Chrome Store](http://localhost), and click on Add to Chrome.
+### Load the extension from local folder
+ 1. Visit `chrome://extensions` in your chrome browser.
+ 2. Ensure that the **Developer mode** checkbox in the top right-hand corner is checked.
+ 3. Click **Load unpacked extension…** to pop up a file-selection dialog. 
+ 4. Navigate to the directory in which your extension files live, and select it:
+ 	* `manifest.json`
+ 	* `background.js`
+ 	* `momentum.html`
+ 	* `momentum.css`
+ 	* `*.png`
+ 	* `*.gif`
+ 
+### Install extension from Chrome Store
+//Go to [Chrome Store](http://localhost), and click on Add to Chrome.
 
 
 ### Built With
