@@ -12,7 +12,7 @@ Go to [Chrome Store](http://localhost), and click on Add to Chrome.
 
 ### Built With
 
-JavaScript, jQuery, HTML5, CSS3, and a lots of :coffee: and :love:!
+JavaScript, jQuery, HTML5, CSS3, and a lots of :coffee: and :musical_note:!
 
 ### Requierments
 
