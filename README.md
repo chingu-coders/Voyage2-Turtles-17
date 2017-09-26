@@ -1,4 +1,4 @@
-![Logo of the project](./128.png)
+![Logo of the project](./icons/128.png)
 
 # Momentum clone
 
