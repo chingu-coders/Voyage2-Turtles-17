@@ -1,8 +1,20 @@
 body {
-	background-color: #222222;
-	background-image: url("jpg/tmnt.gif");
+	background-color: white;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
 	margin: 0;
 }
+
+/*alessio's code start here pls don't touch without asking*/	
+.settings-icon {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.settings-tab {
+
+}
+/*alessio's code ends here pls don't touch without asking*/	
+
