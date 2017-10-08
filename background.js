@@ -20,4 +20,9 @@ function ext() {
 $('#cog-icon').hover(function(){
     $(this).toggleClass('fa-spin');
 });
+
+$('#cog-icon, span').click(function(){
+    $('.settings-tab').toggle();
+    $(this).toggleClass.fadeOut('showMenu');
+});
 /*alessio's code ends here pls don't touch without asking*/	

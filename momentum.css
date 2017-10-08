@@ -1,10 +1,3 @@
-body {
-	background-color: white;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-	margin: 0;
-}
 
 /*alessio's code start here pls don't touch without asking*/	
 .settings-icon {
@@ -13,8 +6,65 @@ body {
 	left: 0;
 }
 
-.settings-tab {
-	display: none;
+.showMenu {
+	display: blok;
 }
+
+
+.settings-tab {
+  display: nne;
+  font-family: arial, sans-serif;
+  position: fixed;
+  left: 43%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(204,204,204,0.8);
+  min-width: 40%;
+}
+
+
+
+.settings-tab  input[name="sections"] {
+  left: -9999px;
+  position: relative;
+  top: -9999px;
+}
+
+.settings-tab section  {
+  display: none;
+  left: 200px;
+  min-width: 300px;
+  padding: 0 0 0 21px;
+  position: absolute;  
+  top: 35%;
+}
+
+div label {
+  cursor: pointer;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px 20px;
+  position: relative;
+  width: 100px;
+}
+
+.settings-tab input[name="sections"]:checked + label { 
+  background: #eee;
+}
+
+
+
+.settings-tab input[name="sections"]:checked ~ section {
+  display: block;
+}
+
+span {
+	font-size: 15px;
+	float: right;
+	margin-right: 5px;
+}
+
 /*alessio's code ends here pls don't touch without asking*/	
 
