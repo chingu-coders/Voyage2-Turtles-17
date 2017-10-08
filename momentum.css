@@ -7,12 +7,13 @@
 }
 
 .showMenu {
-	display: blok;
+	display: block;
 }
 
 
 .settings-tab {
-  display: nne;
+
+  display: none;
   font-family: arial, sans-serif;
   position: fixed;
   left: 43%;

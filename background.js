@@ -23,6 +23,6 @@ $('#cog-icon').hover(function(){
 
 $('#cog-icon, span').click(function(){
     $('.settings-tab').toggle();
-    $(this).toggleClass.fadeOut('showMenu');
+    $(this).toggleClass('showMenu');
 });
 /*alessio's code ends here pls don't touch without asking*/	
