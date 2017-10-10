@@ -1,0 +1,22 @@
+body {
+	background-image: url("jpg/tmnt.gif");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	margin: 0;
+}
+
+.padded {
+	padding: 6px 10px;
+}
+
+.unordered-list { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+}
+
+.list-item { 
+	margin: 0 3px 3px 3px;
+}
