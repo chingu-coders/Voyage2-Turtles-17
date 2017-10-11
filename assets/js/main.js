@@ -13,8 +13,8 @@ $(function() {
         }
     });
 
-    $( "#list" ).sortable();
-    $( "#list" ).disableSelection();
+    $("#list").sortable();
+    $("#list").disableSelection();
 
     $('#list').delegate('a', 'click', function(e) {
         $(this).parent().parent().parent().remove();
