@@ -14,7 +14,12 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 300px;
+	width: 340px;
+}
+
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
 }
 
 .list-item { 
