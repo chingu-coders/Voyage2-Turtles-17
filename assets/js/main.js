@@ -13,8 +13,8 @@ $(function() {
         }
     });
 
-    $('#list').on('click', 'li', function(e) {
-        $(this).remove();
+    $('#list').sortable();
+    $('#list').disableSelection();
      });
 });
 
