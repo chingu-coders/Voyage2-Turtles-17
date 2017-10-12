@@ -1,24 +1,21 @@
 $(function() {
     $('#add').click(function() {
-        var listvalue = $('#textbox').val();
-            $("#textbox").val("");
-            $('ul').append('<li class="ui-widget ui-state-default ui-corner-all list-item padded"><div class="flex-wrapper"><div>' + listvalue + '</div><div><a href="#">x</a></div></div></li>');
+        $.publish('/todo/add', []);
     });
 
     $('#textbox').keypress(function(event) {
         if(event.which === 13) {
-            var listvalue = $('#textbox').val();
-            $('#textbox').val("");
-            $('ul').append('<li class="ui-widget ui-state-default ui-corner-all list-item padded"><div class="flex-wrapper"><div>' + listvalue + '</div><div><a href="#">x</a></div></div></li>');
+            $.publish('/todo/add', []);
         }
     });
 
-    $("#list").sortable();
-    $("#list").disableSelection();
+    $.subscribe('/todo/add', function() {
+        if ($newItem.val() != "") {
 
-    $('#list').delegate('a', 'click', function(e) {
-        $(this).parent().parent().parent().remove();
+            $('ul').append('<li class="ui-widget ui-state-default ui-corner-all list-item padded"><div class="flex-wrapper"><div>' + $newItem.val() + '</div><div><a href="#">x</a></div></div></li>');
+
+            $newItem.val("");
+        }  
     });
-
 });
 
