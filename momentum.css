@@ -7,13 +7,16 @@
 }
 
 .showMenu {
-	display: block;
+	display: bock;
+}
+
+.showModules {
+	display: bock;
 }
 
 
 .settings-tab {
-
-  display: none;
+  display: noe;
   font-family: arial, sans-serif;
   position: fixed;
   left: 43%;
@@ -23,8 +26,6 @@
   background-color: rgba(204,204,204,0.8);
   min-width: 40%;
 }
-
-
 
 .settings-tab  input[name="sections"] {
   left: -9999px;

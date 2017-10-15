@@ -21,8 +21,53 @@ $('#cog-icon').hover(function(){
     $(this).toggleClass('fa-spin');
 });
 
-$('#cog-icon, span').click(function(){
+$('#cog-icon, #close-btn').click(function(){
     $('.settings-tab').toggle();
     $(this).toggleClass('showMenu');
+
+
 });
+
+
+$('.weather-toggle').click(function(){
+	if (this.textContent === "TURN OFF") {
+		
+		$(this).text("TURN ON");
+	} else {
+
+		$(this).text("TURN OFF");
+	}
+
+	$('.lolo').toggle();
+	$(this).toggleClass('showModules');
+
+	
+});
+
+$('.links-toggle').click(function(){
+	if (this.textContent === "TURN OFF") {
+		
+		$(this).text("TURN ON");
+	} else {
+
+		$(this).text("TURN OFF");
+	}
+
+	$('.lolo').toggle();
+	$(this).toggleClass('showModules');
+});
+
+$('.todo-toggle').click(function(){
+	if (this.textContent === "TURN OFF") {
+		
+		$(this).text("TURN ON");
+	} else {
+
+		$(this).text("TURN OFF");
+	}
+
+	$('.lolo').toggle();
+	$(this).toggleClass('showModules');
+});
+
 /*alessio's code ends here pls don't touch without asking*/	
